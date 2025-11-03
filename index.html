@@ -1,0 +1,347 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicky Ino</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-7.1.0-web/css/fontawesome.css"
+    />
+    <link rel="stylesheet" href="fontawesome-free-7.1.0-web/css/brands.css" />
+    <link rel="stylesheet" href="fontawesome-free-7.1.0-web/css/solid.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="ino">Curriculum Vitae</h1>
+    </header>
+
+    <main>
+      <section class="profile-section">
+        <div class="profile-left">
+          <img src="images/ino.png" alt="Profile" />
+          <div class="profile-card">
+            <div class="profile-desc">
+              <h2>Reffalino Nicky Chandra</h2>
+              <p>RPL Student | Backend Enthusiast | Night Owl Developer</p>
+              <p>SMK Negeri 2 Karanganyar</p>
+            </div>
+            <div class="social-links">
+              <ul class="social-list">
+                <li>
+                  <a href="https://www.instagram.com/nicky_ino/" target="_blank"
+                    ><i class="fab fa-instagram"></i> Instagram - nicky_ino</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/reffalino.chandra.3?locale=id_ID"
+                    target="_blank"
+                    ><i class="fab fa-facebook"></i> Facebook - Nicky Chandra</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/NickyIno" target="_blank"
+                    ><i class="fab fa-github"></i>Github - NickyIno</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/82134100843" target="_blank"
+                    ><i class="fa-brands fa-whatsapp"></i> Whatsapp -
+                    82134100843</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-right">
+          <ul class="nav-inline">
+            <li>
+              <a href="#" class="active" onclick="showCard('about', this)"
+                >About Me</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showCard('skills', this)">My Skills</a>
+            </li>
+            <li>
+              <a href="#" onclick="showCard('education', this)">Education</a>
+            </li>
+            <li>
+              <a href="#" onclick="showCard('projects', this)">Projects</a>
+            </li>
+          </ul>
+
+          <!-- CARD-CONTENT -->
+          <div class="card-content">
+            <div id="about" class="profile-card active">
+              <h2>Reffalino Nicky Chandra (Ino)</h2>
+              <p>📍 Karanganyar, Indonesia</p>
+              <p>
+                💻 Learning
+                <b
+                  >Python, HTML, CSS, JavaScript, SQL, PHP, React Native,
+                  Java</b
+                >.
+              </p>
+              <p>❗Passionate about tech and logical problem solving.</p>
+              <hr />
+              <div>
+                <h2>Perkenalan Singkat</h2>
+                <p>
+                  Halo selamat datang di RPL! Saya Reffalino Nicky Chandra,
+                  seorang pelajar di SMK Negeri 2 Karanganyar jurusan RPL/PPLG
+                  yang memiliki minat besar di bidang Backend Development dan
+                  Cyber Security. Saya senang belajar hal-hal baru dan
+                  menciptakan sesuatu yang bermanfaat melalui logika dan
+                  kreativitas.(cuman senang ya bukan suka)
+                </p>
+              </div>
+              <div class="video-wrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/boeJIdiWAok"
+                  title="Video Perkenalan singkat"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+
+              <hr />
+              <div class="biodata-diri">
+                <h2>Biodata Diri</h2>
+                <p><strong>Nama Lengkap:</strong> Reffalino Nicky Chandra</p>
+                <p><strong>Nama Panggilan:</strong> Ino</p>
+                <p><strong>Jenis Kelamin:</strong> Laki-Laki</p>
+                <p>
+                  <strong>Tempat, Tanggal Lahir:</strong> Bogor, 21 September
+                  2009
+                </p>
+                <p><strong>Kewarganegaraan:</strong> WNI</p>
+                <p>
+                  <strong>Pendidikan:</strong> SMK Negeri 2 Karanganyar -
+                  Rekayasa Perangkat Lunak
+                </p>
+                <p><strong>Keahlian Utama:</strong> Backend Development</p>
+                <p>
+                  <strong>Bahasa yang Dikuasai:</strong> Indonesia dan Inggris
+                </p>
+                <p><strong>Status:</strong> Pelajar</p>
+                <p>
+                  <strong>Motto Hidup:</strong> “If the implementation is hard
+                  to explain, it's a bad idea. <br />
+                  If the implementation is easy to explain, it may be a good
+                  idea.”
+                </p>
+              </div>
+            </div>
+
+            <div id="skills" class="profile-card">
+              <h2>Skill dalam Software Development</h2>
+              <ul class="skills-list">
+                <li>
+                  <img
+                    src="images/python.svg"
+                    width="50"
+                    height="50"
+                    alt="Python"
+                  />
+                  <p>
+                    Memiliki pemahaman dasar pemrograman Python, termasuk
+                    penggunaan variabel, kondisi, perulangan, dan fungsi untuk
+                    menyelesaikan masalah sederhana.
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="images/html5.svg"
+                    width="50"
+                    height="50"
+                    alt="HTML5"
+                  />
+                  <p>
+                    Mampu membuat struktur halaman web sederhana menggunakan
+                    HTML5, dengan penekanan pada elemen semantik dan keterbacaan
+                    kode.
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="images/css3.svg"
+                    width="50"
+                    height="50"
+                    alt="CSS3"
+                  />
+                  <p>
+                    Mampu menerapkan gaya dan layout menggunakan CSS3, termasuk
+                    konsep dasar responsive design dan penataan visual
+                    sederhana.
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="images/mysql.svg"
+                    width="50"
+                    height="50"
+                    alt="SQL"
+                  />
+                  <p>
+                    Mampu membuat dan mengelola database sederhana dengan MySQL,
+                    termasuk pembuatan tabel dan pengambilan data dasar melalui
+                    query.
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="images/javascript.svg"
+                    width="50"
+                    height="50"
+                    alt="JavaScript"
+                  />
+                  <p>
+                    Memahami dasar pemrograman JavaScript dan manipulasi DOM
+                    untuk membuat interaksi sederhana di halaman web.
+                  </p>
+                </li>
+              </ul>
+
+              <h2>Skill Lainnya</h2>
+              <ul>
+                <li>
+                  Memahami dasar-dasar penggunaan terminal untuk navigasi dan
+                  eksekusi perintah.
+                </li>
+                <li>
+                  Mampu menggunakan aplikasi Microsoft Office untuk keperluan
+                  dokumentasi dan presentasi.
+                </li>
+                <li>
+                  Mampu berkomunikasi dalam bahasa Inggris dengan baik secara
+                  tulisan.
+                </li>
+                <li>
+                  Mampu bekerja dengan berbagai sistem operasi, terutama
+                  Windows,Linux dan Android.
+                </li>
+                <li>
+                  Terbiasa memecahkan masalah teknis secara mandiri melalui
+                  riset dan eksplorasi.
+                </li>
+              </ul>
+            </div>
+
+            <div id="education" class="profile-card">
+              <h2>🎓 Education</h2>
+              <div class="sekolah">
+                <div class="sekolah">
+                  <p><strong>SD Negeri 1 Kencana</strong> (2016 - 2017)</p>
+                  <p>
+                    Menempuh pendidikan dasar dengan fokus pada penguasaan
+                    Matematika, Ilmu Pengetahuan Umum, serta keterampilan dasar
+                    lainnya. Pindah sekolah karena mengikuti relokasi pekerjaan
+                    orang tua.
+                  </p>
+                </div>
+
+                <div class="sekolah">
+                  <p><strong>SD Negeri 1 Karanglo</strong> (2017 - 2022)</p>
+                  <p>
+                    Melanjutkan pendidikan dasar dengan fokus yang sama pada
+                    Matematika, Ilmu Pengetahuan Umum, dan pengembangan
+                    keterampilan dasar.
+                  </p>
+                </div>
+              </div>
+
+              <div class="sekolah">
+                <p><strong>SMP Negeri 2 Tawangmangu</strong> (2022 - 2025)</p>
+                <p>
+                  Mengikuti Kurikulum 2013 dengan penekanan pada pengembangan
+                  karakter dan kompetensi dasar, dengan mata pelajaran Prakarya
+                  sebagai pengganti mata pelajaran Informatika di Kurikulum
+                  Merdeka.
+                </p>
+              </div>
+
+              <div class="sekolah">
+                <p>
+                  <strong>SMK Negeri 2 Karanganyar</strong> — Program Keahlian
+                  Rekayasa Perangkat Lunak (2025 - sekarang)
+                </p>
+                <p>
+                  Berfokus pada pengembangan kemampuan di bidang Web
+                  Development, Logika Komputasi, serta Pemrograman berbasis
+                  proyek.
+                </p>
+              </div>
+            </div>
+            <div id="projects" class="profile-card">
+              <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+              <p>Project-project sekolah</p>
+              <ul class="daftar-project">
+                <li>
+                  Project 1
+                  <br />
+                  <p>
+                    Koleksi program Python sederhana hasil latihan logika dan
+                    dasar pemrograman. Berisi berbagai script kecil yang
+                    membantu memahami konsep perhitungan, percabangan, dan
+                    algoritma dasar. <br />
+                    <a
+                      href="https://github.com/NickyIno/Project_Sekolah_1_Kelas_X"
+                      target="_blank"
+                      ><i class="fa-solid fa-file"></i>
+                      Project_Sekolah_1_Kelas_X</a
+                    >
+                  </p>
+                </li>
+                <li>Project 2</li>
+                <p>Ini</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>About This Site</h3>
+          <p>
+            Website ini dibuat oleh
+            <strong>Reffalino Nicky Chandra</strong> sebagai Curriculum Vitae
+            digital. Dibangun dengan ❤️ menggunakan HTML, CSS, dan JavaScript.
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/NickyIno" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/nicky_ino/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/82134100843" target="_blank">WhatsApp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Reffalino Nicky Chandra. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
